@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CI_QUERY_ATTRIBUTES</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Code Inspector: Query Attributes</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>DIC</KEY>
+     <ENTRY>Generation requires DDIC type</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SLO</KEY>
+     <ENTRY>SELECT-OPTION requires structure component LOW</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SLT</KEY>
+     <ENTRY>SELECT-OPTION requires structured row type</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>1</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DIC</KEY>
+       <ENTRY>生成操作需要数据字典类型</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLO</KEY>
+       <ENTRY>SELECT-OPTION 需要结构组件 LOW</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLT</KEY>
+       <ENTRY>SELECT-OPTION 需要结构化行类型</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>C</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DIC</KEY>
+       <ENTRY>Generování vyžaduje typ DDIC</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLO</KEY>
+       <ENTRY>SELECT-OPTION vyžaduje komponentu struktury LOW</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLT</KEY>
+       <ENTRY>SELECT-OPTION vyžaduje strukturovaný typ řádky</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DIC</KEY>
+       <ENTRY>Generierung erfordert DDIC-Typ</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLO</KEY>
+       <ENTRY>SELECT-OPTION erfordert Strukturkomponente LOW</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLT</KEY>
+       <ENTRY>SELECT-OPTION erfordert strukturierten Zeilentyp</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DIC</KEY>
+       <ENTRY>La génération nécessite le type du DDIC.</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLO</KEY>
+       <ENTRY>SELECT-OPTION nécessite le membre de structure LOW.</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLT</KEY>
+       <ENTRY>SELECT-OPTION nécessite un type de ligne structuré.</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>H</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DIC</KEY>
+       <ENTRY>Generálás DDIC-típust igényel</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLO</KEY>
+       <ENTRY>SELECT-OPTION LOW struktúrakomponenst igényel</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLT</KEY>
+       <ENTRY>SELECT-OPTION strukturált sortípust igényel</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>I</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DIC</KEY>
+       <ENTRY>La generazione richiede tipo DDIC</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLO</KEY>
+       <ENTRY>SELECT-OPTION richiede componente struttura LOW</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLT</KEY>
+       <ENTRY>SELECT-OPTION richiede tipo riga strutturato</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>J</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DIC</KEY>
+       <ENTRY>生成には DDIC データ型が必要</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLO</KEY>
+       <ENTRY>SELECT-OPTION には構造コンポーネント LOW が必要</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLT</KEY>
+       <ENTRY>SELECT-OPTION には構造化された行データ型が必要</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>L</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DIC</KEY>
+       <ENTRY>Generowanie wymaga typu DDIC</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLO</KEY>
+       <ENTRY>SELECT-OPTION wymaga składnika struktury LOW</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLT</KEY>
+       <ENTRY>SELECT-OPTION wymaga strukturalnego typu linii</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>N</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DIC</KEY>
+       <ENTRY>Generering vereist DDIC-type</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLO</KEY>
+       <ENTRY>SELECT-OPTION vereist structuurcomponent LOW</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLT</KEY>
+       <ENTRY>SELECT-OPTION vereist gestructureerd regeltype</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>P</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DIC</KEY>
+       <ENTRY>A geração requer tipo DDIC</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLO</KEY>
+       <ENTRY>SELECT-OPTION requer componente de estrutura LOW</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLT</KEY>
+       <ENTRY>SELECT-OPTION requer categoria de linha estruturada</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>Q</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DIC</KEY>
+       <ENTRY>Generovanie vyžaduje typ DDIC</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLO</KEY>
+       <ENTRY>SELECT-OPTION vyžaduje komponent štruktúry LOW</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLT</KEY>
+       <ENTRY>SELECT-OPTION vyžaduje štruktúrovaný typ riadka</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>R</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DIC</KEY>
+       <ENTRY>Для генерации необходим тип DDIC</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLO</KEY>
+       <ENTRY>Для SELECT-OPTION требуется компонент структуры LOW</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLT</KEY>
+       <ENTRY>Для SELECT-OPTION требуется структурированный тип строки</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>S</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DIC</KEY>
+       <ENTRY>Generación requiere tipo DDIC</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLO</KEY>
+       <ENTRY>SELECT-OPTION requiere componente de estructura LOW</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLT</KEY>
+       <ENTRY>SELECT-OPTION requiere tipo de líneas estructuradas</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>묩</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DIC</KEY>
+       <ENTRY>जनरेशन DDIC प्रकार की आवश्यकता है</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLO</KEY>
+       <ENTRY>चयन-विकल्प संरचना घटक निम्न की आवश्यकता</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SLT</KEY>
+       <ENTRY>चयन-विकल्प संरचित पंक्ति प्रकार</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_QUERY_ATTRIBUTES</CLSNAME>
+     <CMPNAME>CRC64</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Calculate CRC64-Check Sum</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_QUERY_ATTRIBUTES</CLSNAME>
+     <CMPNAME>C_VERSION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Version</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_QUERY_ATTRIBUTES</CLSNAME>
+     <CMPNAME>GENERATE_CHECKSUM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Specify Check Sum</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_QUERY_ATTRIBUTES</CLSNAME>
+     <CMPNAME>GENERATE_PROGRAM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Generate Selection Program</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_QUERY_ATTRIBUTES</CLSNAME>
+     <CMPNAME>GENERIC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Generic Method for Querying Attributes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_QUERY_ATTRIBUTES</CLSNAME>
+     <CMPNAME>T_CHECKSUM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>T_CHECKSUM</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
